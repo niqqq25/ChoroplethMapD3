@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#choropleth-map-container {
+    display: inline-flex;
+    min-width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title,
+#description {
+    display: inline-block;
+}
+
+#tooltip {
+    position: absolute;
+    background-color: lightblue;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.tooltip--hidden {
+    display: none;
+}
+
+#legend {
+    margin-top: 10px;
+}
